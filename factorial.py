@@ -5,11 +5,12 @@ def calculate_factorial(number):
             for i in reversed(range(number)):
                 if i > 0:
                     number = number * i
+                    print(number)
         elif number == 0:
             number = 1
+            print(number)
         else:
             print("Undefined.")
-        print(number)
     else:
         print("Please input an integer.")
-calculate_factorial(5)
+calculate_factorial(-1) # try this
