@@ -13,4 +13,4 @@ def calculate_factorial(number):
             print("Undefined.")
     else:
         print("Please input an integer.")
-calculate_factorial(-1) # try this
+calculate_factorial() # try this
